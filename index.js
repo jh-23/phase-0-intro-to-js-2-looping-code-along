@@ -1,19 +1,21 @@
-const names = ["Guadalupe", "Ollie", "Aki"];
-const event = "surprise";
+// Write your solution here!  
 
-function writeCards(names, event) {
+const name = ["Guadalupe", "Ollie", "Aki"];
+
+function writeCards(name, event) {
     let newArray = [];
-    for (let i = 0; i < names.length; i++) {
-        newArray.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+    for (let i = 0; i < name.length; i++) {
+        newArray.push((`Thank you, ${name[i]}, for the wonderful ${event} gift!`))
     }
-    return newArray;
+    return newArray
 }
-console.log(writeCards(["Guadalupe", "Ollie", "Aki"], "surprise"));
+console.log(writeCards(["Gaudalupe", "Ollie", "Aki"], "surprise"));
 
 
-const number = 10;
-function countDown(number) {
-    while (number >= 0) {
-        console.log(number--);
+const assignedNumber = 10;
+function countDown(assignedNumber) {
+    while (assignedNumber >= 0) {
+        console.log(assignedNumber--)
     }
 }
+countDown(10);
